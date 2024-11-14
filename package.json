@@ -1,21 +1,21 @@
 {
-  "name": "01-api-rest-nodejs-1",
+  "name": "ajustes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "ts-node -r tsconfig-paths/register ./node_modules/knex/bin/cli.js",
+    "knex": "tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^22.9.0",
     "eslint": "^8.57.1",
-    "ts-node": "^10.9.2",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
   },
