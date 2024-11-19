@@ -11,4 +11,4 @@
 [ ] Deve ser possível identificar o usuário ente as requisições;
 [ ] O usuário só pode visualiszar transações o qula ele criou;
 
-AULA 38
+AULA 39
